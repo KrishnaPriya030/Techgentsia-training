@@ -1,0 +1,58 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(83, 80, 80);
+}
+.outer{
+    width:400px;
+    height:460px;
+    background-color: azure;
+    display: flex;
+     flex-direction: column;       /* 🔑 stack items vertically */
+    justify-content: flex-start;  /* 🔑 move content to top */
+    align-items: center;      
+    margin:auto;
+    border-radius: 12px;
+    padding:20px;
+    gap:10px;
+}
+
+input[type="text"]{
+    border-radius: 12px;
+    width: 350px;
+    height:65px;
+    text-align: right;
+    font-size: 50px;
+    color:rgb(95, 88, 88);
+   
+}
+.buttons{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:25px;
+    padding:20px;
+    background-color:grey;
+    height:350px;
+    border-radius: 12px;
+    width: 340px;
+
+    padding: 20px;
+    margin-bottom: 5px;
+}
+button{
+    padding:10px;
+    border-radius: 8px;font-size: 18px;
+    box-shadow: 0px 15px 30px;
+
+}
+button:active {
+  transform: scale(0.95);   /* 🔑 press effect */
+}
