@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("images/back-view-crowd-fans-watching-live-performance-music-concert-night-copy-space.jpg");
+    background-size: cover; 
+}
+.drum{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:250px;
+    gap:40px;
+    
+}
+button{
+    padding:20px;
+    font-size: 25px;
+    box-shadow: inset 0 20px 60px;
+    font-style: bold;
+    border-radius: 12px;
+}   
+
+button:active{
+    transform: scale(0.95);
+
+}
