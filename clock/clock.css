@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.clock{
+    background-color: aqua;
+     border: 2px solid black;
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    margin:100px auto;
+    position: relative;
+}
+.num{
+  position:absolute;  
+   top:50%;
+  left:50%;  
+  font-size:20px;
+}
+#point{
+  position: absolute;
+   top:50%;
+  left:50%; 
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: rgb(26, 14, 14); /* change color here */
+  border-radius: 50%;
+}   
+
+#num12{ transform: translate(-50%,-50%) rotate(0deg) translate(120px); }
+
+#num1{ transform: translate(-50%,-50%) rotate(30deg) translate(120px) rotate(-30deg); }
+
+#num2{ transform: translate(-50%,-50%) rotate(60deg) translate(120px) rotate(-60deg); }
+
+#num3{ transform: translate(-50%,-50%) rotate(90deg) translate(120px) rotate(-90deg); }
+
+#num4{ transform: translate(-50%,-50%) rotate(120deg) translate(120px) rotate(-120deg); }
+
+#num5{ transform: translate(-50%,-50%) rotate(150deg) translate(120px) rotate(-150deg); }
+
+#num6{ transform: translate(-50%,-50%) rotate(180deg) translate(120px) rotate(-180deg); }
+
+#num7{ transform: translate(-50%,-50%) rotate(210deg) translate(120px) rotate(-210deg); }
+
+#num8{ transform: translate(-50%,-50%) rotate(240deg) translate(120px) rotate(-240deg); }
+
+#num9{ transform: translate(-50%,-50%) rotate(270deg) translate(120px) rotate(-270deg); }
+
+#num10{ transform: translate(-50%,-50%) rotate(300deg) translate(120px) rotate(-300deg); }
+
+#num11{ transform: translate(-50%,-50%) rotate(330deg) translate(120px) rotate(-330deg); }
